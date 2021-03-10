@@ -1,0 +1,17 @@
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\bin\Debug\PharmacyApp.exe.config
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\bin\Debug\PharmacyApp.exe
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\bin\Debug\PharmacyApp.pdb
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.csprojAssemblyReference.cache
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.Form1.resources
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.Properties.Resources.resources
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.csproj.GenerateResource.cache
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.csproj.CoreCompileInputs.cache
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.exe
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.pdb
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.Add_Medicine.resources
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFramework.dll
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFramework.xml
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.csproj.CopyComplete
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.Login.resources
