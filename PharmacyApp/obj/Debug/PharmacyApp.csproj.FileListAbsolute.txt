@@ -15,3 +15,4 @@ C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFramework.x
 C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.csproj.CopyComplete
 C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.Login.resources
+C:\Users\fatime\source\repos\PharmacyApp\PharmacyApp\obj\Debug\PharmacyApp.WorkerDashboard.resources

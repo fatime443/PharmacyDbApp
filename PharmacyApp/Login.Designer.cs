@@ -117,6 +117,7 @@ namespace PharmacyApp
             this.chkShow.TabIndex = 6;
             this.chkShow.Text = "Show Password";
             this.chkShow.UseVisualStyleBackColor = true;
+            this.chkShow.CheckedChanged += new System.EventHandler(this.chkShow_CheckedChanged);
             // 
             // btnLogin
             // 

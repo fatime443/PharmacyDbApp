@@ -139,6 +139,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="WorkerDashboard.resx">
+      <DependentUpon>WorkerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
     <EntityDeploy Include="modell\Model.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
       <LastGenOutput>Model.Designer.cs</LastGenOutput>

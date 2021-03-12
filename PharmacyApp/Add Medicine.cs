@@ -139,7 +139,7 @@ namespace PharmacyApp
                 int tagId;
                 if (CheckTag(tagName))
                 {
-                     tagId = _context.Tags.First(x => x.Tag_Name == tagName).Id;
+                    tagId = _context.Tags.First(x => x.Tag_Name == tagName).Id;
                 }
                 else
                 {
@@ -149,11 +149,10 @@ namespace PharmacyApp
                     _context.SaveChanges();
                     tagId = tag.Id;
                 }
-                 _context.Medicine_To_Tag.Add(new Medicine_To_Tag() 
-                {
-                MedicineId = medicineId,
-                TagId = tagId
-            });
+                Medicine_To_Tag medicine_To_Tag = new Medicine_To_Tag();
+                medicine_To_Tag.MedicineId = medicineId;
+                medicine_To_Tag.TagId = tagId;
+                _context.Medicine_To_Tag.Add(medicine_To_Tag);
                 _context.SaveChanges();
                 
 

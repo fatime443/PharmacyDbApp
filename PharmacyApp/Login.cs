@@ -31,10 +31,24 @@ namespace PharmacyApp
             if (Utilities.IsEmpty(username, password))
             {
                 Worker selectedworker = _context.Workers.FirstOrDefault(x => x.Fullname == username);
-                if (selectedworker !=null)
+                if (selectedworker != null)
                 {
                     if (selectedworker.Password == password.HashCode())
                     {
+                        if (chkRemember.Checked)
+                        {
+                            Properties.Settings.Default.Username = txtUsername.Text;
+                            Properties.Settings.Default.Password = txtPassword.Text;
+                            Properties.Settings.Default.IsChecked = true;
+                            Properties.Settings.Default.Save();
+                        }
+                        else
+                        {
+                            Properties.Settings.Default.Username = string.Empty;
+                            Properties.Settings.Default.Password  = string.Empty;
+                            Properties.Settings.Default.IsChecked  = false;
+                            Properties.Settings.Default.Save();
+                        }
                         switch (selectedworker.RoleId)
                         {
                             case 1:
@@ -65,6 +79,28 @@ namespace PharmacyApp
         private void label4_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+            if (Properties.Settings.Default.IsChecked)
+            {
+                txtUsername.Text = Properties.Settings.Default.Username;
+                txtPassword.Text = Properties.Settings.Default.Password;
+                chkRemember.Checked = true;
+            }
+        }
+
+        private void chkShow_CheckedChanged(object sender, EventArgs e)
+        {
+            if (chkShow.Checked)
+            {
+                txtPassword.UseSystemPasswordChar = false;
+            }
+            else
+            {
+                txtPassword.UseSystemPasswordChar = true;
+            }
         }
     }
 }
